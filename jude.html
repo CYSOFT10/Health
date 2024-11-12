@@ -1,0 +1,1364 @@
+<html>
+    <head>
+        <title>Making website</title>
+        <style>
+            #container{
+                width:100%;
+                height:auto;
+                overflow:hidden;
+                margin:0;
+                padding:0;
+            }
+
+            #header1{
+                width:100%;
+                height:100px;
+                overflow:hidden;
+                margin:0;
+                padding:0;
+            }
+
+            #nav1{
+                width:30%;
+                height:100%;
+                float:left;
+                overflow: hidden;
+            }
+
+            #nav1 h1{
+                font-size:30px ;
+                font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-left:80px;
+                padding-top:5px;
+            }
+
+            #img{
+                width:70%;
+                height:100px;
+                overflow: hidden;
+               }
+
+            #img ul{
+                list-style-type: none;
+                margin:0;
+            }
+
+            #img ul li{
+                display:inline-block;
+                padding:0;
+                margin:0;
+                overflow:hidden;
+                padding-top: 40px;
+                float:right;
+            }
+
+            #img ul li a{
+                text-decoration:none;
+                font-size: 18px;
+                color: black;
+                padding:15px 15px;
+                overflow:hidden;
+            }
+
+            #header2{
+                width:100%;
+                height:auto;
+                overflow:hidden;
+                margin:0;
+                padding:0;
+                background-color: mediumspringgreen;
+            }
+
+            #nav2{
+                width:70%;
+                height:100px;
+                float:left;
+                overflow: hidden; 
+                padding:0;
+                margin:0;
+            }
+
+            #nav2 ul{
+                list-style-type:none;
+                margin:0;
+            }
+
+            #nav2 ul li{
+                display:inline-block;
+                margin:0;
+                padding:0;
+                overflow:hidden;
+                float:left;
+                text-align: left;
+                padding-top: 40px;
+                padding-left: 30px;
+            }
+
+            #nav2 ul li a{
+                text-decoration:none;
+                font-size: 18px;
+                color: black;
+                padding:15px 15px;
+                overflow:hidden;
+            }
+
+            #img2{
+                width:30%;
+                height:100px;
+                float:right;
+                text-align: right;
+                overflow: hidden;
+            }
+
+            #banner3{
+                width:100%;
+                height:500px;
+                overflow: hidden;
+                background-image:url(new/check.jpg);
+                background-repeat:no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            #header3{
+                width:100%;
+                height:auto;
+                overflow: hidden;
+                margin-top:20px;
+            }
+
+            #header3 h1{
+                color: white;
+                width:600px;
+                font-size:70px;
+                padding-left: 60px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seri;
+            }
+
+            #para{
+                width:100%;
+                height:auto;
+                overflow: hidden;
+                padding-top: -40px;
+            }
+
+            #para p{
+                font-size: 20px;
+                width:800px;
+                padding-left: 60px;
+                color: white;
+                margin-top:10px;
+            }
+
+            #banner4{
+                width:15%;
+                height:50px;
+                overflow: hidden;
+                background-color: mediumturquoise;
+                margin-left: 60px;
+            }
+
+            #banner4 ul{
+                list-style-type: none;
+                margin-top:15px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            #banner4 ul li{
+                display:block;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            #banner4 ul li a{
+                text-decoration:none;
+                color:white;
+                overflow:hidden;
+                padding:15px;
+            }
+
+            #HEADIES5{
+                 width:90%;
+                 height:550px;
+                 /*background-color: blue;*/
+                 margin-top:130px;
+                 text-align: center;
+                 margin-left: 65px;
+                 overflow: hidden;
+            }  
+            
+            #a{
+                width:31.3%;
+                height:600px;
+                margin:0 1% 0 1%;
+                /*background-color: chartreuse;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;
+            }
+            
+            #b{
+                width:31.3%;
+                height:600px;
+                margin:0 1% 0 1%;
+                /*background-color: coral;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;
+            }
+
+            #c{
+                width:31.4%;
+                height:600px;
+                margin:0 1% 0 1%;
+                /*background-color: crimson;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;  
+            }
+
+            #banner5{
+                width:45%;
+                height:50px;
+                background-color: aqua;
+                overflow: hidden;
+                margin-left:50px;
+                margin-top: 40px;
+            }
+
+            #banner5 ul{
+                list-style-type: none;
+                margin-top:15px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            #banner5 ul li{
+               
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            #banner5 ul li a{
+                text-decoration:none;
+                color:white;
+                overflow:hidden;
+                padding:15px;
+                margin-left:-30px;
+            }
+
+            #banner6{
+                width:45%;
+                height:50px;
+                background-color: aqua;
+                overflow: hidden;
+                margin-left:50px;
+                margin-top: 40px;
+            }
+
+            #banner6 ul{
+                list-style-type: none;
+                margin-top:15px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            #banner6 ul li{
+               
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            #banner6 ul li a{
+                text-decoration:none;
+                color:white;
+                overflow:hidden;
+                padding:15px;
+                margin-left:-30px;
+            }
+
+            #C{
+                background-color:lightgray;
+            }
+
+            #c h2{
+                margin-top:50px;
+                font-family: Arial Black;
+                overflow: hidden;
+            }
+
+            #img3{
+               margin-top: 20px;
+            }
+
+            #img3 select{
+                width:300px;
+                height:45px;
+                margin-top: 30px;
+                font-style: italic;
+                margin-left: 25px;
+                overflow: hidden;
+            }
+
+            #img3 select option{
+                 padding-right:-300px;
+            }
+
+            #img4{
+                margin-top:30px;
+                
+            }
+
+            #img4 form{
+                width:300px;
+                margin-left:35px ;
+                height:45px;
+            }
+
+            #img4 form fieldset{
+                width:300px;
+                height:45px;
+                
+            }
+
+            #banner7{
+                width:80%;
+                height:50px;
+                background-color: aqua;
+                overflow: hidden;
+                margin-left:50px;
+                margin-top: 40px;
+            }
+
+            #banner7 ul{
+                list-style-type: none;
+                margin-top:15px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            #banner7 ul li{
+               margin: 0;
+               padding: 0;
+               overflow: hidden;
+           }
+
+           #banner7 ul li a{
+                text-decoration:none;
+                color:white;
+                overflow:hidden;
+                padding:15px;
+                margin-left:-30px;
+            }
+            
+            #banner8{
+                width:100%;
+                height:300px;
+                /*background-color: aquamarine;*/
+                margin-top: 100px;
+                overflow: hidden;
+                background-image:url(new/check.jpg);
+                background-repeat:no-repeat;
+                background-size: cover;
+            }
+
+            #img5{
+                width:70%;
+                height:200px;
+                float:left;
+                overflow: hidden;
+                text-align: left;
+                margin-left: 80px;
+                margin-top: 85px;
+                font-family:Bahnschrift SemiBold;
+                color: white;
+            }
+
+            #img5 p{
+                margin-top:20px;
+            }
+
+            #readmore4{
+               width:12%;
+               float:right;
+               text-align: right;
+               margin-right: 70px;
+               margin-top: 100px;
+               background-color: aqua;
+               overflow: hidden;
+            }
+
+            #readmore4 ul{
+                list-style-type: none;
+                
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            #readmore4 ul li{
+                display:block;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            #readmore4 ul li a{
+                text-decoration:none;
+                color:white;
+                overflow:hidden; 
+                padding-right:28px;
+            }
+
+            #banner9{
+                width:100%;
+                height:200px;
+                /*background-color: blueviolet;*/
+                margin-top:70px;
+                overflow: hidden;
+            }
+
+            #writeup{
+                width:100%;
+                height:80px;
+                /*background-color: chocolate;*/
+                text-align: center;
+            }
+
+            #writeup h1{
+                 font-family:Verdana, Geneva, Tahoma, sans-serif;
+                 overflow: hidden;
+            }
+
+            #writeup p{
+                font-family: Bahnschrift SemiBold;
+                padding-top: -5px;
+            }
+
+            #banner10{
+                 width:90%;
+                 height:300px;
+                 /*background-color: blue;*/
+                 margin-top:10px;
+                 text-align: center;
+                 margin-left: 65px;
+                 overflow: hidden;
+            }  
+            
+            #d{
+                width:31.3%;
+                height:300px;
+                margin:0 1% 0 1%;
+                /*background-color: chartreuse;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;
+            }
+            
+            #e{
+                width:31.3%;
+                height:300px;
+                margin:0 1% 0 1%;
+                /*background-color: coral;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;
+            }
+
+            #f{
+                width:31.4%;
+                height:300px;
+                margin:0 1% 0 1%;
+                /*background-color: crimson;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;  
+            }
+
+            #banner11{
+                 width:90%;
+                 height:300px;
+                 /*background-color: blue;*/
+                 margin-top:5px;
+                 text-align: center;
+                 margin-left: 65px;
+                 overflow: hidden;
+            }  
+            
+            #g{
+                width:31.3%;
+                height:300px;
+                margin:0 1% 0 1%;
+                /*background-color: chartreuse;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;
+            }
+            
+            #h{
+                width:31.3%;
+                height:300px;
+                margin:0 1% 0 1%;
+                /*background-color: coral;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;
+            }
+
+            #i{
+                width:31.4%;
+                height:300px;
+                margin:0 1% 0 1%;
+                /*background-color: crimson;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;  
+            }
+
+            #banner12{
+                width:100%;
+                height:100px;
+                overflow:hidden;
+                margin-top: -40px;
+                text-align: center;
+                float:right;
+
+            }
+
+            #readmore5{
+                width:11%;
+                height:50px;
+                background-color:aqua;
+                overflow: hidden;
+                margin-left: 600px;
+            }
+
+            #readmore5 ul{
+                list-style-type: none;  
+                padding: 0;
+                overflow: hidden;
+            }
+
+            #readmore5 ul li{
+                  display:inline-block;
+                  margin:0;
+                  padding:0;
+                  padding-top:-20px;
+            }
+
+            #readmore5 ul li a{
+               text-decoration: none; 
+               color:white;
+               font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            #banner13{
+                width:100%;
+                height:200px;
+                /*background-color: blueviolet;*/
+                margin-top:300px;
+                overflow: hidden;
+                margin-left: 30px;
+            }
+
+            #writeup2{
+                width:100%;
+                height:80px;
+                /*background-color: chocolate;*/
+                text-align: center;
+            }
+
+            #writeup2 h1{
+                 font-family:Verdana, Geneva, Tahoma, sans-serif;
+                 overflow: hidden;
+            }
+
+            #writeup2 p{
+                font-family: Bahnschrift SemiBold;
+                padding-top: -5px;
+            }
+
+            #banner14{
+                 width:90%;
+                 height:500px;
+                 /*background-color: blue;*/
+                 margin-top:5px;
+                 text-align: center;
+                 margin-left: 80px;
+                 overflow: hidden;
+            }  
+            
+            #j{
+                width:23%;
+                height:500px;
+                margin:0 1% 0 1%;
+                /*background-color: chartreuse;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;
+            }
+            
+            #k{
+                width:23%;
+                height:540px;
+                margin:0 1% 0 1%;
+                /*background-color: coral;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;
+            }
+
+            #l{
+                width:23%;
+                height:540px;
+                margin:0 1% 0 1%;
+                /*background-color: crimson;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;  
+            }
+
+            #m{
+                width:23%;
+                height:540px;
+                margin:0 1% 0 1%;
+                /*background-color: blueviolet;*/
+                text-align: center;
+                overflow: hidden;
+                float:left;  
+            }
+
+            #line{
+                width:275px;
+                background-color:forestgreen;
+                height: 5px;
+                margin-top: 30px;
+            }
+
+            #line2{
+                width:275px;
+                background-color:forestgreen;
+                height: 5px;
+                margin-top: 30px;
+            }
+
+            #line3{
+                width:275px;
+                background-color: forestgreen;
+                height: 5px;
+                margin-top: 30px;
+            }
+
+            #line4{
+                width:275px;
+                background-color: forestgreen;
+                height: 5px;
+                margin-top: 30px;
+            }
+
+            #banner15{
+                width:100%;
+                height:150px;
+                /*background-color: blueviolet;*/
+                margin-top:200px;
+                overflow: hidden;
+            }
+
+            #writeup3{
+                width:50%;
+                height:150px;
+                /*background-color: cadetblue;*/
+                float:left;
+                overflow: hidden;
+                text-align: left;
+            }
+
+            #space{
+                padding-left: 90px; 
+                /*background-color: antiquewhite;*/
+            }
+
+            #writeup3 h1{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #writeup3 p{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color:thistle;
+                margin-top: -5px;
+            }
+
+            #writeup4{
+                width:50%;
+                height:150px;
+                /*background-color:gold;*/
+                float:right;
+                overflow: hidden;
+            }
+
+            #space2{
+                padding-left: 80px; 
+                /*background-color: antiquewhite;*/
+            }
+
+            #writeup4 h1{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #writeup4 p{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color:thistle;
+                margin-top: -5px;
+            }
+
+            #banner16{
+                width:100%;
+                height:400px;
+                /*background-color: cornflowerblue;*/
+                overflow: hidden;
+                margin-top: 100px;
+            }
+
+            #header4{
+                width:100%;
+                height:200px;
+                /*background-color: violet;*/
+                overflow: hidden;
+            }
+
+            #HEADIES6{
+                width:70%;
+                height:50px;
+                /*background-color: chartreuse;*/
+                float: left;
+                margin-left: 85px;
+                overflow: hidden;
+            }
+
+            #writeup5{
+                width:7%;
+                height:50px;
+                background-color: black;
+                margin-top: 0px;
+                text-align: center;
+                float: left;
+            }
+
+            #writeup5 h3{
+                color: white;
+                margin-top:13px;
+            }
+
+            #writeup6{
+                width: 80%;
+                height:52px;
+                background-color: forestgreen;
+                margin-top: -22px;
+            }
+
+            #writeup6 h4{
+               color:white;
+               font-family: arial black;
+               padding-left:100px;
+               padding-top: 12px;
+            }
+
+            #HEADIES7{
+                width:35%;
+                height:85px;
+                /*background-color: chocolate;*/
+                float:right;
+                margin-top: -50px;
+            }
+
+            #writeup7{
+                /*background-color: aquamarine;*/
+                width:50%;
+                margin-left:140px;
+                margin-top: -85px;
+                height: 85px;
+                float:left;
+            }
+
+            #HEADIES8{
+                width:100%;
+                height:100px;
+                /*background-color: chartreuse;*/
+                margin-top: -95px;
+                overflow: hidden;
+            }
+
+            #header5{
+                /*background-color:blue;*/
+                height:85px;
+                width:70%;
+                float: left;
+                overflow: hidden;
+            }
+            
+            #writeup8{
+                /*background-color: blueviolet;*/
+                margin-bottom:100px;
+                width:90% ;
+                height:80px;
+                margin-top: -15px;
+            }
+
+            #writeup8 h3{
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size:15px;
+                margin-left: 82px;
+            }
+
+            #header6{
+                width:35%;
+                height:85px;
+                /*background-color: chocolate;*/
+                float:right;
+                margin-top: -75px;
+            }
+
+            #writeup9{
+                /*background-color: aquamarine;*/
+                width:60%;
+                margin-left:140px;
+                margin-top: -85px;
+                height: 85px;
+                float:left;
+            }
+
+            
+            #header7{
+                width:100%;
+                height:200px;
+                /*background-color: violet;*/
+                overflow: hidden;
+            }
+
+            #HEADIES9{
+                width:70%;
+                height:50px;
+                /*background-color: chartreuse;*/
+                float: left;
+                margin-left: 85px;
+                overflow: hidden;
+            }
+
+            #writeup10{
+                width:7%;
+                height:50px;
+                background-color:forestgreen;
+                margin-top: 0px;
+                text-align: center;
+                float: left;
+            }
+
+            #writeup10 h3{
+                color: white;
+                margin-top:13px;
+            }
+
+            #writeup11{
+                width: 80%;
+                height:52px;
+                /*background-color: forestgreen;*/
+                margin-top: -22px;
+            }
+
+            #writeup11 h4{
+               color:black;
+               font-family: arial black;
+               padding-left:100px;
+               padding-top: 12px;
+            }
+
+            #HEADIES10{
+                width:35%;
+                height:85px;
+                /*background-color: chocolate;*/
+                float:right;
+                margin-top: -27px;
+            }
+
+            #writeup12{
+                /*background-color: aquamarine;*/
+                width:53%;
+                margin-left:140px;
+                margin-top: -85px;
+                height: 85px;
+                float:left;
+            }
+
+            #header8{
+                width:100%;
+                height:200px;
+                /*background-color: violet;*/
+                overflow: hidden;
+                margin-top: -120px;
+            }
+
+            #HEADIES11{
+                width:70%;
+                height:50px;
+                /*background-color: chartreuse;*/
+                float: left;
+                margin-left: 85px;
+                overflow: hidden;
+            }
+
+            #writeup13{
+                width:7%;
+                height:50px;
+                background-color:forestgreen;
+                margin-top: 0px;
+                text-align: center;
+                float: left;
+            }
+
+            #writeup13 h3{
+                color: white;
+                margin-top:13px;
+            }
+
+            #writeup14{
+                width: 80%;
+                height:52px;
+                /*background-color: forestgreen;*/
+                margin-top: -22px;
+            }
+
+            
+            #writeup14 h4{
+               color:black;
+               font-family: arial black;
+               padding-left:100px;
+               padding-top: 12px;
+            }
+
+            #banner17{
+                width:100%;
+                height:800px;
+                background-color: crimson;
+                margin-top:70px;
+                overflow: hidden;
+            }
+
+            #HEADIES12{
+                width:90%;
+                height:600px;
+                background-color: darkslateblue;
+                margin-left:78px;
+                margin-top: 110px;
+            }
+
+            #header9{
+                width:29%;
+                height:600px;
+                background-color: darkblue;
+            }
+
+            #writeup15{
+               width:100%;
+               height:30px;
+               background-color: coral;
+            }
+
+            #writeup15 h2{
+                color: white;
+                font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                overflow: hidden;
+            }
+
+            #writeup16{
+                width:100%;
+                height:100px;
+                background-color: darkgreen;
+                margin-top:60px;
+            }
+
+            #space3{
+                width:100%;
+                height:100px;
+                background-color:cornflowerblue;
+                font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            #space3 h4{
+                color:white;
+            }
+
+            #writeup17{
+                background-color: goldenrod;
+                width:100%;
+                height:30px;
+                margin-top:70px;
+            }
+
+            #writeup18{
+                width:100%;
+                height:50px;
+                background-color: lightslategrey;
+                margin-top: 90px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header1">
+                <div  id="nav1">
+                    <h1>HEALTH+</h1>
+                </div>
+                <div id="img">
+                    <ul>
+                        <li><a href="#">Help Desk</a></li>
+                        <li><a href="#">Emergency Services</a></li>
+                        <li><a href="#">Approached</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="header2">
+                <div id="nav2">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+
+                    </ul>
+                </div>
+
+                <div id="image2">
+                    <form  style="padding-top:40px">
+                        <fieldset>
+                            <input type="text" placeholder="Search"style="padding-top:10px;padding-bottom:5px;width:350px;">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+            <div id="banner3">
+                <div id="header3">
+                     <h1>Medical Services You Can Trust</h1>
+                </div>
+                <div id="para">
+                    <p>Yoleme possesses a very wonderful character, he's so sweethearted to almost all the peolple he meets and when he is 
+                        it is needed he tells you what he does not like about you directly to your face, one more quality that is around to brag about in his
+                        character is his humility, that is one character you can write about in a novel or a newspaper.</p>
+                </div>
+                <div id="banner4">
+                    <div id="read more">
+                        <ul>
+                            <li><a href="#">READ MORE</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="HEADIES5">
+                <div id="a">
+                    <img src="new/goat.jpg" width="380px" height="220px">
+                    <h4 style="font-size:20px;font-family: Verdana, Geneva, Tahoma, sans-serif;margin-left: -70px;margin-top:50px ;">Free Consultations</h4>
+                    <p style="margin-top:30px;margin-left:10px;font-family:Calibri Light ;">Arcu neque scienrisque eget liqua ac, congue</p>
+                    <p style="margin-top:-5px;margin-left:-1px;font-family:Calibri Light ;">tempor feins integer tempor, eros a egestas</p>
+                    <p style="margin-top:-5px;margin-left:-115px;font-family:Calibri Light ;">fimbus, dolor risus moliss</p></p>
+                    <div id="banner5">
+                        <div id="read more2">
+                            <ul>
+                                <li><a href="#">READ MORE</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+                <div id="b">
+                    <img src="new/goat.jpg" width="380px" height="220px">
+                    <h4 style="font-size:20px;font-family: Verdana, Geneva, Tahoma, sans-serif;margin-left: -70px;margin-top:50px ;">Free Consultations</h4>
+                    <p style="margin-top:30px;margin-left:10px;font-family:Calibri Light ;">Arcu neque scienrisque eget liqua ac, congue</p>
+                    <p style="margin-top:-5px;margin-left:-1px;font-family:Calibri Light ;">tempor feins integer tempor, eros a egestas</p>
+                    <p style="margin-top:-5px;margin-left:-115px;font-family:Calibri Light ;">fimbus, dolor risus moliss</p></p>
+                    <div id="banner6">
+                        <div id="read more3">
+                            <ul>
+                                <li><a href="#">READ MORE</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="c">
+                    <h2>Make an Appointment</h2>
+                    <div id="img3">
+                        <select>
+                            <option>Department</option>
+                            <option>Department</option>
+                            <option>Department</option>
+                        </select>
+
+                        <select>
+                            <option>Doctor</option>
+                            <option>Doctor</option>
+                            <option>Doctor</option>
+                        </select>
+                    </div>
+
+                    <div id="img4">
+                        <form>
+                            <fieldset>
+                                <input type="text" placeholder="Name" style="width:300px;height:45px;margin-top:-5px;font-style: italic;">
+                            </fieldset>
+                         </form>
+                    </div>
+
+                    <div id="img4">
+                        <form style="margin-left: 35px;">
+                            <fieldset>
+                                <input type="text" placeholder="Phone no" style="width:300px;height:45px;margin-top:-5px;font-style:italic;">
+                            </fieldset>
+                         </form>
+                    </div>
+
+                    <div id="banner7">
+                        <ul>
+                            <li><a href="#">MAKE AN APPIONTMENT</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>  
+            
+           <div id="banner8">
+                <div id="img5">
+                    <h1>Make an appointment with one of our professional Doctors.</h1>
+                    <p>Morbi arcu neque, sceleresque eget ligua ac, congue tempor fellis integer tempor, eros a egestas</p>
+                </div>
+
+                <div id="readmore4">
+                    <ul>
+                        <li><a href="#">CALL NOW</a></li>
+                    </ul>
+                </div>
+           </div> 
+
+           <div id="banner9">
+             <div id="writeup">
+                <h1>Our Services</h1>
+                <p>TO CHOOSE FROM</p>
+             </div>
+           </div>
+
+           <div id="banner10">
+               <div id="d">
+                   <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size:20px;margin-left:-50px;margin-top: 30px;">Cardiology</h1>
+                   <p style="margin-left:-10px;font-family:Calibri Light;margin-top: 45px;">lovrern ipsum doctor sit amet consectetur adipiscing etit</p>
+                   <p style="margin-left: -26px;font-family:Calibri Light;margin-top:-5px;">Danec larern mazamamus malasuada lorern maxamus 
+                    <p style="font-family: calibri light;margin-left:-320px;margin-top:-5px;">maruins</p></p>
+               </div>
+               <div id="e">
+                <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size:20px;margin-left:-50px;margin-top: 30px;">Gastreonterology</h1>
+                <p style="margin-left:-10px;font-family:Calibri Light;margin-top: 45px;">lovrern ipsum doctor sit amet consectetur adipiscing etit</p>
+                <p style="margin-left: -26px;font-family:Calibri Light;margin-top:-5px;">Danec larern mazamamus malasuada lorern maxamus 
+                 <p style="font-family: calibri light;margin-left:-320px;margin-top:-5px;">maruins</p></p> 
+               </div>
+               <div id="f">
+                <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size:20px;margin-left:-50px;margin-top: 30px;">Medical Lab</h1>
+                <p style="margin-left:-10px;font-family:Calibri Light;margin-top: 45px;">lovrern ipsum doctor sit amet consectetur adipiscing etit</p>
+                <p style="margin-left: -26px;font-family:Calibri Light;margin-top:-5px;">Danec larern mazamamus malasuada lorern maxamus 
+                 <p style="font-family: calibri light;margin-left:-320px;margin-top:-5px;">maruins</p></p>
+               </div>
+           </div>
+
+           <div id="banner11">
+            <div id="g">
+                <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size:20px;margin-left:-50px;margin-top: 30px;">Dental Care</h1>
+                <p style="margin-left:-10px;font-family:Calibri Light;margin-top: 45px;">lovrern ipsum doctor sit amet consectetur adipiscing etit</p>
+                <p style="margin-left: -26px;font-family:Calibri Light;margin-top:-5px;">Danec larern mazamamus malasuada lorern maxamus 
+                 <p style="font-family: calibri light;margin-left:-320px;margin-top:-5px;">maruins</p></p>
+            </div>
+            <div id="h">
+             <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size:20px;margin-left:-50px;margin-top: 30px;">Surgery</h1>
+             <p style="margin-left:-10px;font-family:Calibri Light;margin-top: 45px;">lovrern ipsum doctor sit amet consectetur adipiscing etit</p>
+             <p style="margin-left: -26px;font-family:Calibri Light;margin-top:-5px;">Danec larern mazamamus malasuada lorern maxamus 
+              <p style="font-family: calibri light;margin-left:-320px;margin-top:-5px;">maruins</p></p> 
+            </div>
+            <div id="i">
+             <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size:20px;margin-left:-50px;margin-top: 30px;">Neurology</h1>
+             <p style="margin-left:-10px;font-family:Calibri Light;margin-top: 45px;">lovrern ipsum doctor sit amet consectetur adipiscing etit</p>
+             <p style="margin-left: -26px;font-family:Calibri Light;margin-top:-5px;">Danec larern mazamamus malasuada lorern maxamus 
+              <p style="font-family: calibri light;margin-left:-320px;margin-top:-5px;">maruins</p></p>
+            </div>
+           </div>
+
+           <div id="banner12">
+                <div id="readmore5">
+                    <ul>
+                        <li><a href="#">READ MORE</a></li>
+                    </ul>
+                </div>
+           </div>
+
+           <div id="banner13">
+            <div id="writeup2">
+               <h1>Our Departments</h1>
+               <p>TO CHOOSE FROM</p>
+            </div>
+          </div>
+
+          <div id="banner14">
+               <div id="j">
+                  <img src="health/Orthopedics.jpg" width="275px" height="370px";>
+                  <h2 style="font-family:Arial Black;margin-left:-40px;">Orthopedics</h2>
+                  <p style="font-family: calibri light;font-size: 17px;margin-left:-120px;">Read More</p>
+                  <div id="line"></div>
+               </div>
+
+               <div id="k">
+                   <img src="health/Laboratory.jpg" width="275px" height="370px">
+                   <h2 style="font-family:Arial Black;margin-left:-40px;">Laboratory</h2>
+                   <p style="font-family: calibri light;font-size: 17px;margin-left:-105px;">Read More</p>
+                   <div id="line2"></div>
+               </div>
+
+               <div id="l">
+                   <img src="health/Neonatology.jpg" width="275px" height="370px">
+                   <h2 style="font-family:Arial Black;margin-left:-40px;">Neonatology</h2>
+                  <p style="font-family: calibri light;font-size: 17px;margin-left:-120px;">Read More</p>
+                  <div id="line3"></div>
+               </div>
+
+               <div id="m">
+                   <img src="health/Dentistry.jpg" width="274px" height="370px">
+                   <h2 style="font-family:Arial Black;margin-left:-40px;">Dentistry</h2>
+                  <p style="font-family: calibri light;font-size: 17px;margin-left:-85px;">Read More</p>
+                  <div id="line4"></div>
+               </div>
+          </div>
+
+          <div id="banner15">
+              <div id="writeup3">
+                 <div id="space">
+                   <h1>FAQs & Stuff</h1>
+                   <p>READ ALL ABOUT IT</p>
+                 </div>
+              </div>
+
+              <div id="writeup4">
+                <div id="space2">
+                  <h1>Latest News</h1>
+                  <p>READ ALL ABOUT IT</p>
+               </div>
+             </div>
+          </div>
+
+          <div id="banner16">
+              <div id="header4">
+                <div id="HEADIES6">
+                    <div id="writeup5">
+                        <h3>-</h3> 
+                    </div>
+  
+                    <div id="writeup6">
+                        <h4>Maecenas fenmentum tortor id fringilla molestie.</h4>
+                    </div>
+                </div>
+
+                <div id="HEADIES7">
+                     <div id="img6">
+                        <img src="new/goat.jpg"width="105px" height="85px">
+                     </div>
+
+                     <div id="writeup7">
+                         <h4 style="margin-top: -5px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">A simple blog post</h4>
+                         <p style="font-size:12px;margin-top: -13px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">by Jane Smith/April.25.2018</p>
+                         <p style="font-size:12px;margin-top: 15px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: aqua;">2 comments</p>
+                     </div>
+                </div>
+              </div>
+
+              <div id="HEADIES8">
+                <div id="header5">
+                    <div id="writeup8">
+                        <h3>Lorem ipusum dolor sit amet, lorem maximus consectetur adipiscing elit. Donec malesuada lorem</h3>
+                        <h3 style="padding-top: -20px;">maximus maruins Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+                    </div>
+                </div>
+
+                <div id="header6">
+                    <div id="img7">
+                        <img src="new/goat.jpg"width="105px" height="85px">
+                     </div>
+    
+                     <div id="writeup9">
+                         <h4 style="margin-top: -5px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">A new way to see things in medicine</h4>
+                         <p style="font-size:12px;margin-top: -13px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">by Jane Smith/April.25.2018</p>
+                         <p style="font-size:12px;margin-top: 15px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: aqua;">2 comments</p>
+                     </div>
+                  </div>
+              </div>
+
+              <div id="header7">
+                <div id="HEADIES9">
+                    <div id="writeup10">
+                        <h3>+</h3> 
+                    </div>
+  
+                    <div id="writeup11">
+                        <h4>Duis quis lacina elit. Etiam varius mi eget lacus ultricies elementum</h4>
+                    </div>
+                </div>
+
+                <div id="HEADIES10">
+                     <div id="img7">
+                        <img src="new/goat.jpg"width="105px" height="85px">
+                     </div>
+
+                     <div id="writeup12">
+                         <h4 style="margin-top: -5px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;">Why is Pharma industry so big?</h4>
+                         <p style="font-size:12px;margin-top: -13px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">by Jane Smith/April.25.2018</p>
+                         <p style="font-size:12px;margin-top: 15px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: aqua;">2 comments</p>
+                     </div> 
+                </div>
+              </div>
+
+              <div id="header8">
+                <div id="HEADIES11">
+                    <div id="writeup13">
+                        <h3>+</h3> 
+                    </div>
+    
+                    <div id="writeup14">
+                        <h4>Maecenas fermentum tortor id fringilla molestie</h4>
+                    </div>
+                </div>
+              </div>
+          </div>
+
+          <div id="banner17">
+              <div id="HEADIES12">
+                  <div id="header9">
+                     <div id="writeup15">
+                            <h2>HEALTH+</h2>
+                     </div>
+
+                     <div id="writeup16">
+                         <div id="space3">
+                            <h4>Lorem ipsum dolor sit amet, lorem</h4>
+                            <h4 style="margin-top:-12px;">maximus consectetur adipiscing elit.</h4>
+                            <h4 style="margin-top: -12px;">Donec malesuada lorem maximus mauris.</h4>
+                         </div>
+                     </div>
+
+                     <div id="writeup17">
+                         <div id="n"></div>
+                         <div id="o"></div>
+                         <div id="q"></div>
+                         <div id="r"></div>
+                         <div id="s"></div>
+                         <div id="t"></div>
+                     </div>
+
+                     <div id="writeup18">
+                         <h3></h3>
+                     </div>
+                  </div>
+              </div>
+          </div>
+       </div>
+    </body>
